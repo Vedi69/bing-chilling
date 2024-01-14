@@ -1,0 +1,97 @@
+lower = 900
+upper = 1000
+
+print("Prime numbers between", lower, "and", upper, "are:")
+
+for num in range(lower, upper + 1):
+   # all prime numbers are greater than 1
+   if num > 1:
+       for i in range(2, num):
+           if (num % i) == 0:
+               break
+       else:
+           print(num)
+Run Code
+Output
+
+Prime numbers between 900 and 1000 are:
+907
+911
+919
+929
+937
+941
+947
+953
+967
+971
+977
+983
+991
+997
+Here, we store the interval as lower for lower interval and upper for upper interval, and find prime numbers in that range. Visit this page to learn how to check whether a number is prime or not.
+
+Share on:
+Did you find this article helpful?
+
+Related Examples
+Python Example
+
+Check Prime Number
+
+Python Example
+
+Find Armstrong Number in an Interval
+
+Python Example
+
+Find Numbers Divisible by Another Number
+
+Python Example
+
+Find the Factors of a Number
+
+
+Join our newsletter for the latest updates.
+Enter Email Address
+Join
+
+
+Tutorials
+Python 3 Tutorial
+JavaScript Tutorial
+SQL Tutorial
+HTML Tutorial
+R Tutorial
+C Tutorial
+C++ Tutorial
+Java Tutorial
+Rust Tutorial
+Go Tutorial
+Kotlin Tutorial
+Swift Tutorial
+C# Tutorial
+DSA Tutorial
+Examples
+Python Examples
+JavaScript Examples
+C Examples
+Java Examples
+Kotlin Examples
+C++ Examples
+Company
+About
+Advertising
+Privacy Policy
+Terms & Conditions
+Contact
+Blog
+Careers
+Youtube
+Apps
+Learn Python
+Learn C Programming
+Learn Java
+© Parewa Labs Pvt. Ltd. All rights reserved.
+
+   
